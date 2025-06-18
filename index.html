@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpando o Mundo - Jogo Educacional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagens/limpando o mundo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Limpando o Mundo</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="jogo.html">Sobre o Jogo</a>
+                <a href="ods.html">ODS Relacionada</a>
+                <a href="equipe.html">Equipe</a>
+            </div>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Limpando o Mundo</h1>
+                <p>Um jogo educativo sobre conscientização ambiental com diversão competitiva!</p>
+                <div class="hero-buttons">
+                    <a href="jogo.html" class="cta-button">Conheça o Jogo</a>
+                    <a href="#ods" class="cta-button secondary">Saiba sobre a ODS</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="imagens/limpando o mundo.png" alt="Captura de tela do jogo Limpando o Mundo" id="main-image">
+                 <img src="imagens/jogo.png" alt="gameplay" id="main-image">
+            </div>
+        </section>
+
+        <section id="ods" class="ods-section">
+            <h2>ODS 11 - Cidades e Comunidades Sustentáveis</h2>
+            <div class="ods-content">
+                <img src="imagens/Modelo_Imagemdestacada_textos-22.webp" alt="ODS 11 - Cidades e Comunidades Sustentáveis">
+                <div class="ods-text">
+                    <p>Nosso jogo está alinhado com o Objetivo de Desenvolvimento Sustentável 11 da ONU, que visa tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis.</p>
+                    <p>Através da gamificação, conscientizamos sobre a importância da limpeza urbana e da coleta seletiva, contribuindo para cidades mais limpas e saudáveis.</p>
+                    <button id="learn-more" class="cta-button secondary">Saiba mais</button>
+                    <div id="ods-details" class="hidden">
+                        <p>O jogo aborda especificamente a meta 11.6: 'Até 2030, reduzir o impacto ambiental negativo per capita das cidades, inclusive prestando especial atenção à qualidade do ar, gestão de resíduos municipais e outros.'</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-preview">
+            <h2>Conheça Nossa Equipe</h2>
+            <div class="team-grid" id="team-container">
+            </div>
+            <a href="equipe.html" class="cta-button">Ver toda a equipe</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>NAVE Rio - Rio de Janeiro, RJ - 2025 - Oficina Integrada 2</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

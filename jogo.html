@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Jogo - Limpando o Mundo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagens/limpando o mundo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Limpando o Mundo</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="jogo.html" class="active">Sobre o Jogo</a>
+                <a href="ods.html">ODS Relacionada</a>
+                <a href="equipe.html">Equipe</a>
+            </div>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="game-header">
+            <h1>Sobre o Jogo</h1>
+            <p>Conheça mais sobre a gameplay, personagens e mecânicas de "Limpando o Mundo"</p>
+        </section>
+
+        <section class="game-trailer">
+            <h2>Trailer do Jogo</h2>
+            <div class="video-container">
+                <video controls poster="imagens/limpando o mundo.png">
+                    <source src="imagens/2025-06-18 12-32-27.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="game-story">
+            <h2>História</h2>
+            <div class="story-content">
+                <div class="story-text">
+                    <p>A história do nosso jogo é de 2 garis amigos que estão trabalhando normalmente no calçadão de Copacabana. Depois de um diálogo divertido, eles decidem transformar o trabalho em uma competição saudável.</p>
+                    <p>O gari que coletar mais lixo durante essa competição terá que pagar o PF (prato feito) e o matte (chimarrão) para o outro. Uma aposta típica entre colegas de trabalho que transforma uma tarefa comum em uma emocionante disputa!</p>
+                </div>
+                <img src="imagens/jogo.png" alt="Cena do jogo mostrando os personagens">
+            </div>
+        </section>
+
+        <section class="game-characters">
+            <h2>Personagens</h2>
+            <div class="characters-grid">
+                <div class="character-card">
+                    <img src="imagens/theo.png" alt="Personagem Théo">
+                    <div class="character-info">
+                        <h3>Théo</h3>
+                        <p><strong>Idade:</strong> 30 anos</p>
+                        <p><strong>Resumo:</strong> Ex-presidiário negro tentando recomeçar a vida com um novo trabalho.</p>
+                        <p><strong>Personalidade:</strong> Forte e determinada, mas com um temperamento explosivo. Não gosta de ser repreendido.</p>
+                    </div>
+                </div>
+                <div class="character-card">
+                    <img src="imagens/Luna.png" alt="Personagem Luna">
+                    <div class="character-info">
+                        <h3>Luna</h3>
+                        <p><strong>Idade:</strong> 26 anos</p>
+                        <p><strong>Resumo:</strong> Ex-faxineira que decidiu buscar novos desafios profissionais.</p>
+                        <p><strong>Personalidade:</strong> Tranquila e paciente, difícil de tirar do sério. Valoriza o trabalho em equipe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-features">
+            <h2>Mecânicas do Jogo</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏃</div>
+                    <h3>Movimentação</h3>
+                    <p>Controles simples com movimentos horizontais enquanto o cenário se move verticalmente.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗑️</div>
+                    <h3>Tipos de Lixo</h3>
+                    <p>Lixo comum (pontos normais), tóxico (reduz pontos) e dourado (pontos extras).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Power-ups</h3>
+                    <p>Dobro de pontos e velocidade aumentada para coletar mais itens.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Competição</h3>
+                    <p>Modo multiplayer com tela dividida para disputa entre amigos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-controls">
+            <h2>Controles</h2>
+            <div class="controls-grid">
+                <div class="player-controls">
+                    <h3>Jogador 1 (Théo)</h3>
+                    <ul>
+                        <li><strong>Movimento para esquerda:</strong> Tecla A</li>
+                        <li><strong>Movimento para direita:</strong> Tecla D</li>
+                    </ul>
+                </div>
+                <div class="player-controls">
+                    <h3>Jogador 2 (Luna)</h3>
+                    <ul>
+                        <li><strong>Movimento para esquerda:</strong> Tecla ← (seta esquerda)</li>
+                        <li><strong>Movimento para direita:</strong> Tecla → (seta direita)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>NAVE Rio - Rio de Janeiro, RJ - 2025 - Oficina Integrada 2</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
