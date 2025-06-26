@@ -73,15 +73,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-  
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Mensagem enviada com sucesso!');
-            this.reset();
-        });
-    }
-
  
     loadTeamMembers();
     handleMainImage();
