@@ -1,4 +1,4 @@
-/* Estilos base e reset */
+
 :root {
     --primary-color: #4CAF50;
     --secondary-color: #2E7D32;
@@ -55,7 +55,7 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Layout */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -66,7 +66,7 @@ section {
     padding: 3rem 0;
 }
 
-/* Barra de navegação */
+
 .navbar {
     background-color: var(--secondary-color);
     position: sticky;
@@ -127,7 +127,7 @@ section {
     transform: scale(1.1);
 }
 
-/* Botões */
+
 .cta-button {
     display: inline-block;
     background-color: var(--primary-color);
@@ -160,7 +160,7 @@ section {
     color: var(--white);
 }
 
-/* Página Inicial */
+
 .hero {
     display: flex;
     flex-wrap: wrap;
@@ -195,7 +195,7 @@ section {
     margin-top: 2rem;
 }
 
-/* Seção ODS */
+
 .ods-section {
     background-color: var(--white);
     border-radius: 8px;
@@ -261,7 +261,7 @@ section {
     margin: 2rem 0;
 }
 
-/* Página do Jogo */
+
 .game-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -395,7 +395,7 @@ section {
     margin-bottom: 0.5rem;
 }
 
-/* Página ODS */
+
 .ods-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -513,7 +513,7 @@ section {
     left: 0;
 }
 
-/* Página Equipe */
+
 .team-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -605,7 +605,7 @@ section {
     min-height: 150px;
 }
 
-/* Rodapé */
+
 .footer {
     background-color: var(--secondary-color);
     color: var(--white);
@@ -614,7 +614,7 @@ section {
     margin-top: 4rem;
 }
 
-/* Tema escuro */
+
 body.dark-theme {
     --bg-color: #121212;
     --text-color: #f5f5f5;
@@ -642,7 +642,7 @@ body.dark-theme .form-group textarea {
     border-color: #424242;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
@@ -709,7 +709,7 @@ body.dark-theme .form-group textarea {
     }
 }
 
-/* ESTILOS DA EQUIPE CORRIGIDOS */
+
 
 .team-section {
     padding: 2rem 0;
@@ -798,7 +798,7 @@ body.dark-theme .form-group textarea {
     line-height: 1.5;
 }
 
-/* Tema escuro para a equipe */
+
 body.dark-theme .team-card {
     background-color: #2d2d2d;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -814,7 +814,7 @@ body.dark-theme .team-description {
     color: #b0b0b0;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .team-grid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
